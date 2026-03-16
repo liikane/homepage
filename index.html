@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leksiko — Veebiteenuste Agentuur</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #1a1a2e;
+      background-color: #f8f9fa;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: #fff;
+      padding: 60px 20px 80px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+
+    header p.tagline {
+      font-size: 1.15rem;
+      opacity: 0.85;
+      max-width: 520px;
+      margin: 0 auto 24px;
+    }
+
+    header .phone {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 10px 28px;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: #fff;
+      transition: background 0.3s;
+    }
+
+    header .phone:hover {
+      background: rgba(255, 255, 255, 0.22);
+    }
+
+    /* Container */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* About / Lorem Ipsum section */
+    .about {
+      padding: 60px 20px;
+    }
+
+    .about .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px 36px;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    }
+
+    .about h2 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      color: #0f3460;
+    }
+
+    .about p {
+      color: #444;
+      font-size: 1.05rem;
+      margin-bottom: 16px;
+    }
+
+    /* Contact section */
+    .contact {
+      padding: 0 20px 80px;
+    }
+
+    .contact .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px 36px;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    }
+
+    .contact h2 {
+      font-size: 1.6rem;
+      margin-bottom: 24px;
+      color: #0f3460;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #333;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid #d0d5dd;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: inherit;
+      transition: border-color 0.2s;
+      background: #fafafa;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #0f3460;
+      background: #fff;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    button[type="submit"] {
+      background: #0f3460;
+      color: #fff;
+      border: none;
+      padding: 14px 40px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button[type="submit"]:hover {
+      background: #1a1a2e;
+    }
+
+    /* Footer */
+    footer {
+      background: #1a1a2e;
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .about .card,
+      .contact .card {
+        padding: 28px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Leksiko</h1>
+      <p class="tagline">Veebiteenuste agentuur — loome teie digitaalse kohalolu</p>
+      <a href="tel:+3725551525" class="phone">+372 555 15 285</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="about">
+    <div class="container">
+      <div class="card">
+        <h2>Meist</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.</p>
+        <p>Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact">
+    <div class="container">
+      <div class="card">
+        <h2>Võta ühendust</h2>
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p style="display:none">
+            <label>Ära täida seda: <input name="bot-field"></label>
+          </p>
+          <div class="form-group">
+            <label for="name">Nimi</label>
+            <input type="text" id="name" name="name" required placeholder="Teie nimi">
+          </div>
+          <div class="form-group">
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" required placeholder="teie@email.ee">
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefon</label>
+            <input type="tel" id="phone" name="phone" placeholder="+372 ...">
+          </div>
+          <div class="form-group">
+            <label for="message">Sõnum</label>
+            <textarea id="message" name="message" required placeholder="Kirjutage oma sõnum siia..."></textarea>
+          </div>
+          <button type="submit">Saada sõnum</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Leksiko. Kõik õigused kaitstud. | <a href="tel:+3725551525" style="color:rgba(255,255,255,0.85);text-decoration:none;">+372 555 15 285</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
