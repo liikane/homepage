@@ -12,6 +12,9 @@ Enamik Markdowni töötlejaid lubab kasutada toorest HTML-i, seega võid kirjuta
 Näidis uues aknas
 </a>
 
-✅ Töötab paljudes keskkondades (nt GitHub, Jekyll, WordPress)
-⚠️ Mõned platvormid filtreerivad HTML-i turvakaalutlustel
-❌ See ei ole puhas Markdown, vaid HTML Markdowni sees
+Kas teadsid, et Github lihtne toimeti võimaldab kopipastet teisest brauseri aknast koos ikoonidega? Näidis on siin: 
+
+✅ Töötab paljudes keskkondades (nt GitHub, Jekyll, WordPress) 
+⚠️ Mõned platvormid filtreerivad HTML-i turvakaalutlustel 
+❌ See ei ole puhas Markdown, vaid HTML Markdowni sees 
+
